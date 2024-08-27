@@ -6,11 +6,11 @@
         <description>Scrapper de operaciones de BancoEstado en JavaScript.</description>
         <authors>dev@302.cl</authors>
 	 <contentFiles>
-		<files include="**/app.js" flatten="true" buildAction="None" copyToOutput="true" />
+		<files include="**/BancoEstadoScrapper/app.js" flatten="true" buildAction="None" copyToOutput="true" />
 	 </contentFiles>
     </metadata>
   <files>
       <file src="app.js" target="contentFiles\any\any\BancoEstadoScrapper" />
-      <file src="app.js" target="content\BancoEstadoScrapper" />
+      <file src="package.json" target="contentFiles\any\any\BancoEstadoScrapper" />
   </files>
 </package>

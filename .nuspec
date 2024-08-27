@@ -10,7 +10,6 @@
 	 </contentFiles>
     </metadata>
   <files>
-      <file src="app.js" target="contentFiles\any\any" />
       <file src="app.js" target="content" />
   </files>
 </package>

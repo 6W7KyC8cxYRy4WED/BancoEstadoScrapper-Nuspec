@@ -11,5 +11,6 @@
     </metadata>
   <files>
       <file src="app.js" target="contentFiles\any\any\BancoEstadoScrapper" />
+      <file src="app.js" target="content\BancoEstadoScrapper" />
   </files>
 </package>

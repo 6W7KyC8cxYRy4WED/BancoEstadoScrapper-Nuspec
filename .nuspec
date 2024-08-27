@@ -6,7 +6,10 @@
         <description>Scrapper de operaciones de BancoEstado en JavaScript.</description>
         <authors>dev@302.cl</authors>
 	 <contentFiles>
-		<files include="app.js" buildAction="None" copyToOutput="true" flatten="true" />
+		<files include="app.js" buildAction="Content" copyToOutput="true" flatten="true" />
+		<files include="**/app.js" buildAction="Content" copyToOutput="true" flatten="true" />
+		<files include="app.js" buildAction="EmbeddedResource" copyToOutput="true" flatten="true" />
+		<files include="**/app.js" buildAction="EmbeddedResource" copyToOutput="true" flatten="true" />
 	 </contentFiles>
     </metadata>
 </package>
